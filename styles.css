@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900|Open+Sans:300,400");
+
+:root {
+	--color: aliceblue;
+	--blue-2: rgb(238, 238, 238);
+	--border: 4px solid var(--color);
+	--yellow-1: #244300; 
+	/*yellow-1 is about*/
+	--yellow-2: #559153;
+	/*yellow-2 is clasify*/
+	--yellow-3: #49cd45;
+	/*yellow-3 is chat*/
+	--dark-green: #49343e;
+	--shadow-big: -5px -5px 0px var(--dark-green), 5px 5px 0px var(--yellow-3);
+	--shadow-small: -2px -2px 2px var(--dark-green);
+	--yellow-animation-duration: 1.7s;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+p {
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.2;
+}
+#about, #classify, #chat {
+	transition: 1s ease all;
+}
+
+/*	HOME 	*/
+#home {
+	position: absolute;
+	height: 92%;
+	width: 70%;
+	top: 0px;
+	left: 0px;
+
+	background-image: url("BG-1.jpg");
+	background-size: 160%;
+	background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha value (0.5) to control opacity */
+    background-blend-mode: overlay;
+
+
+	font-family: Montserrat;
+	font-weight: 900;
+	font-size: 140px;
+	color: #F4FDF9;
+	text-shadow: var(--shadow-big);
+	padding: 2%;
+}
+
+/*	ABOUT 	*/
+#about {
+	position: absolute;
+	height: 60%;
+	width: 15%;
+	top: 0px;
+	left: 70%;
+
+	background-color: var(--yellow-1);
+}
+#about-title {
+	font-size: 40px;
+	position: absolute;
+	transform: rotate(-90deg);
+	background-color: var(--yellow-2);
+	color: var(--color);
+	width: auto;
+	height: auto;
+	bottom: 45%;
+	left: 10px;
+	letter-spacing: 5px;
+	padding: 10px;
+	border: var(--border);
+}
+#about-title:hover {
+	background-color: var(--yellow-1);
+}
+
+/*	Classify		*/
+#classify {
+	position: absolute;
+	height: 60%;
+	width: 15%;
+	top: 0px;
+	left: 85%;
+
+	background-color: var(--yellow-2);
+}
+#classify-title {
+	font-size: 40px;
+	position: absolute;
+	transform: rotate(-90deg);
+	background-color: var(--yellow-3);
+	color: var(--color);
+	width: auto;
+	height: auto;
+	bottom: 45%;
+	left: -40px;
+	letter-spacing: 5px;
+	padding: 10px;
+	border: var(--border);
+}
+#classify-title:hover {
+	background-color: var(--yellow-2);
+}
+
+/*	chat 	*/
+#chat {
+	position: absolute;
+	height: 40%;
+	width: 30%;
+	top: 60%;
+	left: 70%;
+	background-color: var(--yellow-3);
+}
+#chat-title {
+	font-size: 40px;
+	position: absolute;
+	background-color: var(--yellow-1);
+	color: var(--color);
+	width: 30%;
+	bottom: 34%;
+	left: 31%;
+	border: var(--border);
+	padding: 1%;
+}
+#chat-title:hover {
+	background-color: var(--yellow-3);
+}
+
+/*	TEXTS 	*/
+.title {
+	font-family: Montserrat;
+	font-weight: 500;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	transition: 1s all;
+}
+.content {
+	padding: 40px;
+}
+
+@keyframes yellowOne {
+	0% {color: var(--yellow-1);}
+	50% {color: var(--yellow-1);}
+	100% {color: var(--blue-2);}
+}
+@keyframes yellowTwo {
+	0% {color: var(--yellow-2);}
+	50% {color: var(--yellow-2);}
+	100% {color: var(--blue-2);}
+}
+@keyframes yellowThree {
+	0% {color: var(--yellow-3);}
+	50% {color: var(--yellow-3);}
+	100% {color: var(--blue-2);}
+}
+.heading {
+	font-family: Montserrat;
+	font-weight: 300;
+	font-size: 60px;
+	color: var(--blue-2);
+	text-transform: uppercase;
+}
+#about-content .heading, #about-content .body {
+	animation: yellowOne var(--yellow-animation-duration);
+	-moz-animation: yellowOne var(--yellow-animation-duration);
+	-webkit-animation: yellowOne var(--yellow-animation-duration);
+}
+#classify-content .heading, #classify-content .body {
+	animation:  yellowTwo var(--yellow-animation-duration);
+	-moz-animation: yellowTwo var(--yellow-animation-duration);
+	-webkit-animation: yellowTwo var(--yellow-animation-duration);
+}
+#chat-content .heading, #chat-content .body {
+	animation:  yellowThree var(--yellow-animation-duration);
+	-moz-animation: yellowThree var(--yellow-animation-duration);
+	-webkit-animation: yellowThree var(--yellow-animation-duration);
+}
+
+
+.body {
+	color: var(--blue-2);
+	font-family: Open Sans;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: justify;
+
+	font-size: 16px;
+}
+.tab {
+	margin-left: 15px;
+}
+/*	W/ JAVASCRIPT	*/
+
+.hidden {
+	display: none;
+}
+.full-home {
+	opacity: .2;
+	cursor: default;
+}
+.full-home p::-moz-selection {
+	background-color: none;
+}
+.full-home p::selection {
+	background-color: none;
+}
+.full-home p::-webkit-selection {
+	background-color: none;
+}
+
+/*	ABOUT FULL	*/
+
+.about-full-about {
+	width: 55% !important;
+	height: 80% !important;
+	left: 30% !important;
+}
+.about-full-classify	 {
+	height: 80% !important;
+}
+.about-full-chat {
+	height: 20% !important;
+	width: 70% !important;
+	top: 80% !important;
+	left: 30% !important;
+}
+
+/*	Classify FULL	*/
+
+.classify-full-about {
+	height: 80% !important;
+	left: 30% !important;
+}
+.classify-full-classify {
+	height: 80% !important;
+	width: 55% !important;
+	left: 45% !important;
+}
+.classify-full-chat {
+	height: 20% !important;
+	width: 70% !important;
+	top: 80% !important;
+	left: 30% !important;
+}
+
+/*	chat FULL	*/
+
+.rotate {
+	transform: none !important;
+	bottom: 10px !important;
+	left: 10px !important;
+}
+.chat-full-about {
+	left: 30% !important;
+	width: 35% !important;
+	height: 15% !important;
+}
+.chat-full-classify {
+	left: 65% !important;
+	width: 35% !important;
+	height: 15% !important;
+}
+.chat-full-chat {
+	width: 70% !important;
+	height: 85% !important;
+	left: 30% !important;
+	top: 15% !important;
+}
