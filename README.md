@@ -1,15 +1,44 @@
 # We've Got Herbes - Medicinal Plant Classifier
 
-Welcome to **We've Got Herbes**, a medicinal plant classifier designed to run directly in your web browser.
+In the realm of natural medicine, accurate identification and understanding of medicinal herbs hold paramount importance. Our project, the Medicinal Herb Classifier (MHC), embodies a comprehensive solution leveraging machine learning. The MHC employs state-of-the-art algorithms to precisely identify diverse medicinal herbs based on their visual characteristics. This amalgamation of deep learning, an intuitive web interface, and an interactive chatbot forms a groundbreaking platform, enabling seamless herb recognition and dissemination of valuable herb-related information. From seasoned herbalists to curious enthusiasts, the MHC bridges the gap between traditional herbal knowledge and modern technology, empowering individuals with precise herb identification and access to informative resources.
 
-## Features
+## Table of Contents
 
-- **Medicinal Herb Classification**: Upload an image of a medicinal plant to identify its species.
-- **User-Friendly Interface**: Explore and learn about medicinal herbs through an intuitive web interface.
-- **Chatbot Assistance**: Interact with an AI chatbot to get information about various plants.
+- [Key Features](#key-features)
+- [Significance and Impact](#significance-and-impact)
+- [Prerequisites](#prerequisites)
+- [Getting Started and Running the Application](#getting-started-and-running-the-application)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
+- [Project Status](#project-status)
+  
+## Key Features
+### Deep Learning Model
+- **Robust Classification:** Utilizes an advanced deep learning model trained on extensive datasets of medicinal herbs. The model, based on the Inception architecture, ensures precise herb classification from images, minimizing misclassification risks and the project utilizes a custom Inception model trained on a dataset of 190 classes of medicinal plants and leaves. The model is available in the 'inception.tflite' file.
 
 
-## Usage
+### User-Friendly Web Interface
+- **Seamless Upload and Identification:** An intuitive web interface allows users—herbalists, researchers, or enthusiasts—to effortlessly upload images of medicinal herbs. The system swiftly processes these images, providing instant and accurate identification results.
+
+### Interactive Medicinal Herb Chatbot
+- **Comprehensive Knowledge Repository:** Incorporates an AI-powered Medicinal Herb Chatbot. This intelligent bot addresses queries related to herb properties, medicinal uses, cultivation tips, and more. It acts as an interactive repository, delivering real-time information.
+
+## Significance and Impact
+This project bridges traditional herbal knowledge with modern technology, empowering accurate herb identification and effortless information access. It combines deep learning, an interactive interface, and natural language processing to facilitate herb recognition and serve as an educational platform.
+
+### Potential Applications
+- **Wide-ranging Usage:** From personal herbal enthusiasts to professionals in natural medicine, botany, and pharmacology, its applications are diverse. Offers insights and information dissemination in various fields.
+
+## Prerequisites
+
+Before you get started, make sure you have the following prerequisites installed on your system:
+
+- **Python**: You can download Python from the [official Python website](https://www.python.org/downloads/).
+- **Git**: To clone the repository, you'll need Git. You can download it from [here](https://git-scm.com/downloads).
+
+
+## Getting Started and Running the Application
 
 1. **Clone the Repository:**
    ```bash
@@ -32,13 +61,29 @@ Welcome to **We've Got Herbes**, a medicinal plant classifier designed to run di
 ![classify jpg](https://github.com/rakshit-ayachit/weve-got-herbes/assets/129822642/815de18d-775f-4608-8e27-749e5a81414b)
 ![Picture1](https://github.com/rakshit-ayachit/weve-got-herbes/assets/129822642/2bab364d-bd02-4228-aaa4-bdc1c8f36930)
 
-## Model
-The project utilizes a custom Inception model trained on a dataset of 190 classes of medicinal plants and leaves. The model is available in the 'inception.tflite' file.
 
 ## Contributing
-Contributions, suggestions, or bug reports are welcome! Feel free to create issues or submit pull requests.
 
-## Contact
-For any inquiries or support, contact us at rakshit.ayachit@gmail.com .
+ We welcome your contributions to [We've got Herbes]! Start by forking the repository, cloning it to your local machine, creating a new branch, making your changes, and committing them. Then, push your changes to your fork on GitHub and create a pull request. Your contributions will be reviewed and, once approved, merged into the main project. Thank you for your help!
+## Contributors
+
+A big thank you to the following contributors who have helped improve this project:
+
+- Srujana Akella [@srujanaakella](https://github.com/srujanaakella)
+- Bhuvan Noone [@Shrek3147](https://github.com/Shrek3147)
+- Tareen Khan 
+- Aditi Kulkarni
+- Arnav Choudhary
+
+Your contributions are greatly appreciated!
+
+## Project Status
+
+This project is currently under active development, and new features and improvements are being added regularly. While it is functional, there may be occasional updates that could affect usage. We appreciate your understanding and patience as we work to enhance this application. If you encounter any issues or have suggestions, please [open an issue](https://github.com/rakshit-ayachit/weve-got-herbes/issues). Your feedback is valuable to us!
+
+
+
+
+       
 
 
