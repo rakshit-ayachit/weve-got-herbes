@@ -57,9 +57,10 @@ Before you get started, make sure you have the following prerequisites installed
 - Explore and interact with the integrated AI chatbot for additional information about different plants.
 
 ## Screenshots
-![index jpg](https://github.com/rakshit-ayachit/weve-got-herbes/assets/129822642/715f1c2b-38b1-4140-bc40-5478540a2ac0)
-![classify jpg](https://github.com/rakshit-ayachit/weve-got-herbes/assets/129822642/815de18d-775f-4608-8e27-749e5a81414b)
-![Picture1](https://github.com/rakshit-ayachit/weve-got-herbes/assets/129822642/2bab364d-bd02-4228-aaa4-bdc1c8f36930)
+![index](https://github.com/rakshit-ayachit/weve-got-herbes/assets/129822642/26882d6d-eaf9-4679-876b-5e650154bc51)
+![classify](https://github.com/rakshit-ayachit/weve-got-herbes/assets/129822642/f9a31291-cd9a-4cca-84f5-fed2e92dc801)
+![chatbot](https://github.com/rakshit-ayachit/weve-got-herbes/assets/129822642/608824ba-c8ba-4878-b4c8-1de6fb9ce65b)
+
 
 
 ## Contributing
