@@ -12,7 +12,7 @@ In the realm of natural medicine, accurate identification and understanding of m
 - [Contributing](#contributing)
 - [Contributors and Contact](#contributors-and-contact)
 - [Project Status](#project-status)
-- -[License](#license)
+- [License](#license)
   
 ## Key Features
 ### Deep Learning Model
