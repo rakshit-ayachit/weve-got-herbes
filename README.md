@@ -71,7 +71,7 @@ Before you get started, make sure you have the following prerequisites installed
 
 A big thank you to the following contributors who have helped improve this project:
 
-- Srujana Akella [@srujanaakella](https://github.com/srujanaakella) - [srujanaakella05@gmail.com](#mailto:srujanaakella05@gmail.com)
+- Srujana Akella [@srujanaakella](https://github.com/srujanaakella) - [srujanaakella05@gmail.com](#https://mailto:srujanaakella05@gmail.com)
 - Bhuvan Noone [@Shrek3147](https://github.com/Shrek3147) - [noonebhuvan3@gmail.com](#mailto:noonebhuvan3@gmail.com)
 - Tareen Khan - [khantareen1@gmail.com](#mailto:khantareen1@gmail.com)
 - Aditi Kulkarni - [aditisrcm9@gmail.com](#mailto:aditisrcm9@gmail.com)
