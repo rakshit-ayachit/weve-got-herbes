@@ -12,6 +12,7 @@ In the realm of natural medicine, accurate identification and understanding of m
 - [Contributing](#contributing)
 - [Contributors and Contact](#contributors-and-contact)
 - [Project Status](#project-status)
+- -[License](#license)
   
 ## Key Features
 ### Deep Learning Model
@@ -42,7 +43,7 @@ Before you get started, make sure you have the following prerequisites installed
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/rakshit-ayachit/weve-got-herbes.git
 
 2. **Open `index.html`:**
 - Navigate to the cloned directory.
@@ -84,6 +85,9 @@ Your contributions are greatly appreciated!
 This project is currently under active development, and new features and improvements are being added regularly. While it is functional, there may be occasional updates that could affect usage. We appreciate your understanding and patience as we work to enhance this application. If you encounter any issues or have suggestions, please [open an issue](https://github.com/rakshit-ayachit/weve-got-herbes/issues). Your feedback is valuable to us!
 
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
        
