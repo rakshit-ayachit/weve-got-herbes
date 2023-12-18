@@ -10,7 +10,7 @@ In the realm of natural medicine, accurate identification and understanding of m
 - [Getting Started and Running the Application](#getting-started-and-running-the-application)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [Contributors](#contributors)
+- [Contributors and Contact](#contributors-and-contact)
 - [Project Status](#project-status)
   
 ## Key Features
@@ -66,15 +66,16 @@ Before you get started, make sure you have the following prerequisites installed
 ## Contributing
 
  We welcome your contributions to [We've got Herbes]! Start by forking the repository, cloning it to your local machine, creating a new branch, making your changes, and committing them. Then, push your changes to your fork on GitHub and create a pull request. Your contributions will be reviewed and, once approved, merged into the main project. Thank you for your help!
-## Contributors
+
+## Contributors and Contact
 
 A big thank you to the following contributors who have helped improve this project:
 
-- Srujana Akella [@srujanaakella](https://github.com/srujanaakella)
-- Bhuvan Noone [@Shrek3147](https://github.com/Shrek3147)
-- Tareen Khan 
-- Aditi Kulkarni
-- Arnav Choudhary
+- Srujana Akella [@srujanaakella](https://github.com/srujanaakella) - [srujanaakella05@gmail.com](#mailto:srujanaakella05@gmail.com)
+- Bhuvan Noone [@Shrek3147](https://github.com/Shrek3147) - [noonebhuvan3@gmail.com](#mailto:noonebhuvan3@gmail.com)
+- Tareen Khan - [khantareen1@gmail.com](#mailto:khantareen1@gmail.com)
+- Aditi Kulkarni - [aditisrcm9@gmail.com](#mailto:aditisrcm9@gmail.com)
+- Arnav Choudhary - [arnavchoudhary2212@gmail.com](#mailto:arnavchoudhary2212@gmail.com)
 
 Your contributions are greatly appreciated!
 
