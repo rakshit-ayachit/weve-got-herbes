@@ -80,6 +80,9 @@ A big thank you to the following contributors who have helped improve this proje
 
 Your contributions are greatly appreciated!
 
+Feel free to contact me ([Rakshit Ayachit](mailto:rakshit@ayachit@gmail.com)) or any of the contributors for further information or support regarding this project.
+
+
 ## Project Status
 
 This project is currently under active development, and new features and improvements are being added regularly. While it is functional, there may be occasional updates that could affect usage. We appreciate your understanding and patience as we work to enhance this application. If you encounter any issues or have suggestions, please [open an issue](https://github.com/rakshit-ayachit/weve-got-herbes/issues). Your feedback is valuable to us!
