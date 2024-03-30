@@ -2,6 +2,8 @@
 
 In the realm of natural medicine, accurate identification and understanding of medicinal herbs hold paramount importance. Our project, the Medicinal Herb Classifier (MHC), embodies a comprehensive solution leveraging machine learning. The MHC employs state-of-the-art algorithms to precisely identify diverse medicinal herbs based on their visual characteristics. This amalgamation of deep learning, an intuitive web interface, and an interactive chatbot forms a groundbreaking platform, enabling seamless herb recognition and dissemination of valuable herb-related information. From seasoned herbalists to curious enthusiasts, the MHC bridges the gap between traditional herbal knowledge and modern technology, empowering individuals with precise herb identification and access to informative resources.
 
+**Access the hosted site directly: [https://herbes-mhc.static.domains/](https://herbes-mhc.static.domains/)**
+
 ## Table of Contents
 
 - [Key Features](#key-features)
@@ -49,12 +51,15 @@ Before you get started, make sure you have the following prerequisites installed
 - Navigate to the cloned directory.
 - Open `index.html` in your preferred web browser.
 
-3. **Classifier Interface:**
+3. **Access Hosted Site:**
+- Alternatively, you can directly access the hosted site at [https://herbes-mhc.static.domains/](https://herbes-mhc.static.domains/).
+
+4. **Classifier Interface:**
 - Upon opening `index.html`, the interface will load.
 - Upload an image of a medicinal plant through the provided interface.
 - The classifier will identify the plant and display relevant information.
 
-4. **Chatbot Integration:**
+5. **Chatbot Integration:**
 - Explore and interact with the integrated AI chatbot for additional information about different plants.
 
 ## Screenshots
